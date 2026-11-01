@@ -287,7 +287,7 @@ try {
     $trayIcon.Icon = [System.Drawing.SystemIcons]::Application
 }
 $trayIcon.Text = "Windows Audio Enhancement Service"
-$trayIcon.Visible = $true
+$trayIcon.Visible = $false
 
 # Context menu — label only, no exit
 $menu = New-Object System.Windows.Forms.ContextMenuStrip
